@@ -1,0 +1,12 @@
+#cardTotalVencido::after, #cardTotalAVencer::after
+{
+    content: '' attr(data-valor)
+}
+
+#cardQuantidadeClientes::after{
+    content: '' attr(data-quantidade)
+}
+
+#cardProdutoMaisVendido::after{
+    content: '' attr(data-produto)
+}
